@@ -1,5 +1,5 @@
 {
-    "name": "srio/rest-upload-bundle",
+    "name": "micperr/rest-upload-bundle",
     "description": "Handle multiple rest upload ways",
     "keywords": ["symfony", "file", "upload", "api", "rest", "multipart", "resumable", "form-data"],
     "type": "symfony-bundle",
@@ -11,19 +11,6 @@
             "homepage": "http://www.sroze.io"
         }
     ],
-    "require": {
-        "php": ">=5.3.3",
-        "symfony/symfony": ">=2.3.0",
-        "incenteev/composer-parameter-handler": "~2.0"
-    },
-    "require-dev": {
-        "sensio/framework-extra-bundle": ">=2.3.0",
-        "doctrine/orm": "~2.2,>=2.2.3",
-        "doctrine/doctrine-bundle": ">=1.2.0",
-        "phpunit/phpunit": "3.7.*",
-        "knplabs/knp-gaufrette-bundle": ">=0.1.7",
-        "oneup/flysystem-bundle": "~1.4"
-    },
     "suggest": {
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": ">=1.2.0",
@@ -39,6 +26,5 @@
             "php-cs-fixer fix .",
             "./test.sh"
         ]
-    },
-    "target-dir": "SRIO/RestUploadBundle"
+    }
 }
